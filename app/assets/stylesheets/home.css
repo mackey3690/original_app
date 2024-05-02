@@ -1,0 +1,84 @@
+.menu{
+  border: 5px solid #078495;
+  border-radius: 10px;
+  margin: -20px 20px 20px 20px;
+}
+
+.menu-title{
+  display: inline-block;
+  padding: 10px;
+  margin: 50px 50px 0px 50px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #078495;
+  border-radius: 10px;
+}
+
+.menu-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  margin: 50px;
+}
+
+.menu-item{
+  text-align: center;
+  background-color: #078495;
+  border-radius: 50px;
+  padding: 100px 0px;
+ }
+
+.product_r{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.parts_r{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.supplier_r{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.product_l{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.parts_l{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.supplier_l{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.stock{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.de_1{
+  font-size: 30px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.de_2{
+  font-size: 30px;
+  color: yellow;
+  text-decoration: none;
+}

@@ -1,0 +1,37 @@
+  <%= render "shared/header" %>
+<div class= "menu-title">
+  <h1>Menu</h1>
+  </div>
+<div class= "menu">
+  <div class= "menu-list">
+    <div class= "menu-item">
+      <%= link_to "製 品 登 録", root_path, class: "product_r" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "部 品 登 録", root_path, class: "parts_r" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "仕入れ先登録", root_path, class: "supplier_r" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "製 品 一 覧", root_path, class: "product_l" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "部 品 一 覧", root_path, class: "parts_l" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "仕入れ先一 覧", root_path, class: "supplier_l" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "入 出 庫", root_path, class: "stock" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "開発中1", root_path, class: "de_1" %>
+    </div>
+    <div class= "menu-item">
+      <%= link_to "開発中2", root_path, class: "de_2" %>
+    </div>
+  </div>
+</div>
+<%= render "shared/footer" %>
+
