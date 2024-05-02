@@ -1,24 +1,17 @@
-# README
+# アプリケーション名
+Inventory control α
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要
+製造業において、在庫管理および自動発注ができる。
 
-Things you may want to cover:
+# URL
 
-* Ruby version
+# テスト用アカウント
+・Basic認証パスワード：
+・Basic認証ID：
+・メールアドレス：
+・パスワード：
 
-* System dependencies
+# 利用方法
+## アプリケーションを作成した背景
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
