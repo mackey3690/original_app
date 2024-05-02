@@ -1,0 +1,107 @@
+.top_page_header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  }
+
+.nav{
+  display: flex;
+  margin-right: 10px;
+}
+.login{
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.header_right{
+  margin-top: 30px;
+}
+
+  .header_logo{
+   color: white;
+   font-size: 40px;
+   margin: 15px 0px 15px 10px;
+  }
+
+  .openbtn {
+  position: relative; /* ボタン全体を相対配置 */
+  background: #D54884;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all .4s;
+   margin-top: 10px;
+  }
+  
+  .openbtn span {
+  display: block;
+  position: absolute;
+  left: 14px;
+  height: 2px;
+  border-radius: 5px;
+  background: #fff;
+  width: 40%;  /* 幅を一貫性あるものに */
+  }
+  
+  .openbtn span:nth-of-type(1) {
+  top: 13px;
+  }
+  
+  .openbtn span:nth-of-type(2) {
+  top: 23px; /* 間隔を均等に調整 */
+  }
+  
+  .openbtn span:nth-of-type(3) {
+  top: 33px; /* 間隔を均等に調整 */
+  position: relative;
+  }
+  
+  .openbtn span:nth-of-type(3)::after {
+  content: "Menu";
+  position: absolute;
+  top: 10%;
+  left: 50%; /* テキスト位置の調整 */
+  transform: translate(-50%, 50%); 
+  color: #fff;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  }
+  
+  .openbtn.active span:nth-of-type(1),
+  .openbtn.active span:nth-of-type(3) {
+  width: 70%;
+  top: 40%;
+  left: 50%; /* テキスト位置の調整 */
+  transform: translate(-50%, -50%); 
+  }
+
+  .openbtn.active span:nth-of-type(1) {
+    transform: translateX(-50%) rotate(45deg);
+    }
+    
+    .openbtn.active span:nth-of-type(2) {
+    opacity: 0;
+    }
+    
+    .openbtn.active span:nth-of-type(3) {
+    transform: translateX(-50%) rotate(-45deg);
+    }
+    
+    .openbtn.active span:nth-of-type(3)::after { 
+      transform: translateX(-70%)  translateY(11px) rotate(45deg);
+      content: "Close";
+      display: block;
+      position: absolute;
+      left: 30%; /* 要素の中央から */
+      color: #fff;
+      font-size: 0.6rem;
+      text-transform: uppercase;
+    }
+    
+  
