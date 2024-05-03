@@ -1,0 +1,43 @@
+.indispensable {
+  background: #ea352d;
+  margin-left: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-group{
+  text-align: center;
+
+}
+
+.form-text-wrap{
+ width: 80vw;
+ margin-top: 5vh;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 40px;
+  border:  #078495 2px solid;
+  border-radius: 5px;
+}
+
+.registration-btn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.registration-blue-btn {
+  width: 30%;
+  background: #078495;
+  border: 1px solid #078495;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 48px;
+  font-size: 25px;
+  cursor: pointer;
+}
