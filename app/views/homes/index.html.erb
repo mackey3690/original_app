@@ -1,11 +1,11 @@
-  <%= render "shared/header" %>
+ 
 <div class= "menu-title">
   <h1>Menu</h1>
   </div>
 <div class= "menu">
   <div class= "menu-list">
     <div class= "menu-item">
-      <%= link_to "製 品 登 録", root_path, class: "product_r" %>
+      <%= link_to "製 品 登 録", new_product_path, class: "product_r" %>
     </div>
     <div class= "menu-item">
       <%= link_to "部 品 登 録", root_path, class: "parts_r" %>
@@ -14,7 +14,7 @@
       <%= link_to "仕入れ先登録", root_path, class: "supplier_r" %>
     </div>
     <div class= "menu-item">
-      <%= link_to "製 品 一 覧", root_path, class: "product_l" %>
+      <%= link_to "製 品 一 覧", products_path, class: "product_l" %>
     </div>
     <div class= "menu-item">
       <%= link_to "部 品 一 覧", root_path, class: "parts_l" %>
@@ -33,5 +33,4 @@
     </div>
   </div>
 </div>
-<%= render "shared/footer" %>
 
