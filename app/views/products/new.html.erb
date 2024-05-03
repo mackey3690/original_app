@@ -1,0 +1,18 @@
+<%= form_with(model: @product, local: true) do |f| %>
+<div class="form-group">
+  <div class='form-text-wrap'>
+    <label class="form-text">製品名</label>
+    <span class="indispensable">必須</span>
+  </div>
+  <%= f.text_field :name, class:"input-default", id:"product_name", placeholder:"例）"%>
+<div class='form-text-wrap'>
+    <label class="form-text">サイズ</label>
+    <span class="indispensable">必須</span>
+  </div>
+  <%= f.text_field :size, class:"input-default", id:"product_size", placeholder:"例）"%>
+</div>
+ <div class="registration-btn">
+      <%= f.submit "登 録" ,class:"registration-blue-btn", id:"button"%>
+   </div>
+</div>
+<%end%>
