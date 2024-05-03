@@ -26,58 +26,75 @@
   text-align: center;
   background-color: #078495;
   border-radius: 50px;
-  padding: 100px 0px;
- }
+}
 
 .product_r{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: white;
   text-decoration: none;
 }
 
 .parts_r{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: white;
   text-decoration: none;
 }
 
 .supplier_r{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: white;
   text-decoration: none;
 }
 
 .product_l{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: white;
   text-decoration: none;
 }
 
 .parts_l{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: white;
   text-decoration: none;
 }
 
 .supplier_l{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: white;
   text-decoration: none;
 }
 
 .stock{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: white;
   text-decoration: none;
 }
 
 .de_1{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: yellow;
   text-decoration: none;
 }
 
 .de_2{
+  display: block;
+  padding: 100px 0px;
   font-size: 30px;
   color: yellow;
   text-decoration: none;
